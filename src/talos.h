@@ -5,7 +5,7 @@
 #include <boost/filesystem.hpp>
 namespace bfs = boost::filesystem;
 
-#include <mc_rbdyn_urdf/urdf.h>
+// #include <mc_rbdyn_urdf/urdf.h>
 
 #include <mc_robots/api.h>
 
@@ -24,7 +24,7 @@ protected:
 public:
   std::vector<std::string> virtualLinks;
   std::vector<std::string> gripperLinks;
-  mc_rbdyn_urdf::Limits limits;
+  // mc_rbdyn_urdf::Limits limits;
 };
 
 struct MC_ROBOTS_DLLAPI TalosSkeletonRobotModule : public TalosCommonRobotModule
